@@ -1,0 +1,14 @@
+## Local VSCode settings
+.vscode/
+
+## Bower components
+bower_components/
+
+## Node.js
+node_modules/
+
+## Yarn error log
+yarn-error.log
+
+## Build files
+*.js

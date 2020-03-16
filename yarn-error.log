@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\A352870\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mocha chai --save-dev
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\A352870\AppData\Local\Continuum\anaconda3;C:\Users\A352870\AppData\Local\Continuum\anaconda3\Library\mingw-w64\bin;C:\Users\A352870\AppData\Local\Continuum\anaconda3\Library\usr\bin;C:\Users\A352870\AppData\Local\Continuum\anaconda3\Library\bin;C:\Users\A352870\AppData\Local\Continuum\anaconda3\Scripts;C:\Users\A352870\AppData\Local\Microsoft\WindowsApps;C:\Users\A352870\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\A352870\AppData\Roaming\npm;C:\Users\A352870\AppData\Local\Programs\Git\bin;C:\OpenSSL-Win64\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mocha: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:8031
+      at ClientRequest.onError (C:\Users\A352870\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:152234:17)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at Socket.socketErrorListener (_http_client.js:392:9)
+      at Socket.emit (events.js:198:13)
+      at emitErrorNT (internal/streams/destroy.js:91:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "Test",
+    "version": "1.0.0",
+    "description": "Test project for Mocha Chai ",
+    "main": "index.js",
+    "author": "Sreeraj Thi Valapil",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

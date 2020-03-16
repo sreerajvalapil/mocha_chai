@@ -1,0 +1,15 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "Test project for Mocha Chai ",
+  "main": "index.js",
+  "author": "Sreeraj Thi Valapil",
+  "license": "MIT",
+  "scripts": {
+    "test" :"mocha"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0"
+  }
+}
